@@ -1,8 +1,8 @@
 <?php
-$servername = "110.40.64.15:3306";
-$username = "tester";
-$password = "114514UsEr1919810";
-$dbname = "testdatabase";
+$servername = "数据库服务器ip地址:3306";
+$username = "MySQL用户名";
+$password = "MySQL用户密码";
+$dbname = "数据库名";
 
 // 创建连接
 $conn = new mysqli($servername, $username, $password, $dbname);
