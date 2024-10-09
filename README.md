@@ -1,6 +1,8 @@
 # LAMP_Flight_Booking
 2024年10月数据库实验课大作业：基于LAMP的机票预订系统的开发归档。
 
+![readme.png](readme.png "登录页面")
+
 > **环境需求**
 > 
 > - 系统版本：Linux Ubuntu 22.04
