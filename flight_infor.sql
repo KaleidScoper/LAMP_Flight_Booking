@@ -1,0 +1,5 @@
+insert into `flight_infor` (`f_company`, `f_departure`, `f_destination`, `f_end_time`, `f_id`, `f_number`, `f_start_time`) values ('Air China', 'Beijing', 'Shanghai', '2024-10-08 12:00:00', 1, 'CA123', '2024-10-08 08:00:00');
+insert into `flight_infor` (`f_company`, `f_departure`, `f_destination`, `f_end_time`, `f_id`, `f_number`, `f_start_time`) values ('China Eastern', 'Shanghai', 'Guangzhou', '2024-10-08 13:00:00', 2, 'MU456', '2024-10-08 09:00:00');
+insert into `flight_infor` (`f_company`, `f_departure`, `f_destination`, `f_end_time`, `f_id`, `f_number`, `f_start_time`) values ('China Southern', 'Guangzhou', 'Shenzhen', '2024-10-08 14:00:00', 3, 'CZ789', '2024-10-08 10:00:00');
+insert into `flight_infor` (`f_company`, `f_departure`, `f_destination`, `f_end_time`, `f_id`, `f_number`, `f_start_time`) values ('Hainan Airlines', 'Shenzhen', 'Beijing', '2024-10-08 15:00:00', 4, 'HU101', '2024-10-08 11:00:00');
+insert into `flight_infor` (`f_company`, `f_departure`, `f_destination`, `f_end_time`, `f_id`, `f_number`, `f_start_time`) values ('Helicopter', 'California', 'LosAngels', '2020-01-26 10:00:00', 5, 'BlackMamBa24', '1978-08-23 10:00:00');
