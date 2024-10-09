@@ -95,7 +95,7 @@ $result = $conn->query($sql);
     <h2>欢迎您的使用，用户<?php echo $_SESSION['u_id']; ?>！</h2>
     <div class="button-container">
         <button><a href="logout.php">点击登出！</a></button>
-        <button><a href="show_tickit.php">我的机票</a></button>
+        <button><a href="show_ticket.php">我的机票</a></button>
     </div>
     <h3>近期航班信息一览：</h3>
 
@@ -114,7 +114,7 @@ $result = $conn->query($sql);
     </div>
 
     <!-- 添加订票按钮 -->
-    <form method="post" action="buy_tickit.php">
+    <form method="post" action="buy_ticket.php">
         <input type="hidden" name="u_id" value="<?php echo $_SESSION['u_id']; ?>"><br>
         选择航班ID：<input type="number" name="f_id" placeholder="在上表中选择" required><br>
         选择舱段：<input type="text" name="t_type" placeholder="头等/商务/经济" required><br>

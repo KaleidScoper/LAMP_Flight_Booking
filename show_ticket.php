@@ -81,7 +81,7 @@ $result = $conn->query($sql);
     </div>
     <!-- 添加退票按钮 -->
     <h3>行程有变？在此退票：</h3>
-    <form method="post" action="delete_tickit.php">
+    <form method="post" action="delete_ticket.php">
         输入机票ID：<input type="text" name="t_id" placeholder="在上表中选择" required>
         <div class="button-container">
             <button type="submit">点击退票</button>
