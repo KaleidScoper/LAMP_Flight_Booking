@@ -1,6 +1,8 @@
 <?php
-session_start();
 
+# 登陆成功后的欢迎页面，即个人主页
+
+session_start();
 if (!isset($_SESSION['u_id'])) {
     header("Location: login.php");
     exit();
@@ -8,9 +10,9 @@ if (!isset($_SESSION['u_id'])) {
 
 include 'config.php';
 
+# 用于查询所有机票，以备在主页展示
 $sql = "SELECT * FROM flight_infor";
 $result = $conn->query($sql);
-
 ?>
 
 <!DOCTYPE html>

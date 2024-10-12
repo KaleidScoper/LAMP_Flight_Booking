@@ -1,4 +1,4 @@
-<?php
+<?php # 数据库连接信息。替换为自己的数据库信息。
 $servername = "数据库服务器ip地址:3306";
 $username = "MySQL用户名";
 $password = "MySQL用户密码";
