@@ -11,7 +11,11 @@
 > - 前端/客户端：HTML5，CSS
 > - 后端/服务端：PHP 8.1.2-1ubuntu2.18
 
-使用方法：database.sql内有建库指令。数据库中仅用到了users表存储账户、ticket_infor存储机票信息、flight_infor存储航班信息，其他表涉及想做而未做的功能，删去不影响本系统运行。flight_infor.sql内为示例航班数据。
+使用方法：
+ 
+ database.sql内有建库指令。数据库中仅用到了users表存储账户、ticket_infor存储机票信息、flight_infor存储航班信息，其他表涉及想做而未做的功能，删去不影响本系统运行。
+ 
+ flight_infor.sql内为示例航班数据。
 
 注意：在课程展示时，创建账户时应该按1、2、3、4……的顺序设定用户ID。
 
